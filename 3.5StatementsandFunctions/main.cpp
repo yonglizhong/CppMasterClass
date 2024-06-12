@@ -21,4 +21,7 @@ int main(){
     int another_sum = addNumbers(4,5);
     std::cout << "Sum from function:" << another_sum << std::endl;
 
+    std::cout << "Sum from function:" << addNumbers(32,1000) << std::endl;
+    return 0; 
+
 }
